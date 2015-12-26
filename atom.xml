@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[Home]]></title>
   
-  <link href="/child/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/child/"/>
+  <link href="/myblog/atom.xml" rel="self"/>
+  <link href="http://blckcoffe.github.io/myblog/"/>
   <updated>2015-12-26T08:39:54.620Z</updated>
-  <id>http://yoursite.com/child/</id>
+  <id>http://blckcoffe.github.io/myblog/</id>
   
   <author>
     <name><![CDATA[Shen Da]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[my first blog]]></title>
-    <link href="http://yoursite.com/child/2015/12/26/my-first-blog/"/>
-    <id>http://yoursite.com/child/2015/12/26/my-first-blog/</id>
+    <link href="http://blckcoffe.github.io/myblog/2015/12/26/my-first-blog/"/>
+    <id>http://blckcoffe.github.io/myblog/2015/12/26/my-first-blog/</id>
     <published>2015-12-26T06:30:22.000Z</published>
     <updated>2015-12-26T08:39:54.620Z</updated>
     <content type="html"><![CDATA[<h2 id="My_First_Day_of_2016"><a href="#My_First_Day_of_2016" class="headerlink" title="My First Day of 2016"></a>My First Day of 2016</h2><p>   The author is lazy, nothing is left here.</p>
