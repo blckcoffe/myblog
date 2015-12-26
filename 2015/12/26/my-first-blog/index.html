@@ -4,16 +4,18 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Home</title>
+    <title>my first blog | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Shen Da">
+    
+    <meta name="description" content="My First Day of 2016   The author is lazy, nothing is left here.">
     
     
     
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="idreajay" />
-    <meta name="twitter:title" content="Home" />
+    <meta name="twitter:title" content="my first blog | Home" />
       
     
     
@@ -64,27 +66,77 @@
 </div>
 
     </header>
-    
-
     <div id="container">
-      <div id="main">
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2015/12/26/my-first-blog/" title="my first blog" itemprop="url">
-  
-    <h1 itemprop="name">my first blog</h1>
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
     
-     
-           <p itemprop="description" >My First Day of 2016   The author is lazy, nothing is left here.</p>
-        
+      <a href="/2015/12/26/my-first-blog/" title="my first blog" itemprop="url">my first blog</a>
+  </h1>
+  <!-- 显示作者
+  <p class="article-author">By
     
+      <a href="http://yoursite.com/child" title="Shen Da">Shen Da</a>
+    </p>
+  -->  
+  <p class="article-time">
     <time datetime="2015-12-26T06:30:22.000Z" itemprop="datePublished">2015-12-26</time>
-  </a>
-</section>
+    更新日期:<time datetime="2015-12-26T08:39:54.620Z" itemprop="dateModified">2015-12-26</time>
+    
+  </p>
+</header>
+
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目錄</strong>
+		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#My_First_Day_of_2016"><span class="toc-number">1.</span> <span class="toc-text">My First Day of 2016</span></a></li></ol>
+		</div>
+		
+		<h2 id="My_First_Day_of_2016"><a href="#My_First_Day_of_2016" class="headerlink" title="My First Day of 2016"></a>My First Day of 2016</h2><p>   The author is lazy, nothing is left here.</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-share" id="share">
+
+  
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+    <span class="jiathis_txt">分享到：</span>
+    <a class="jiathis_button_qzone"></a>
+    <a class="jiathis_button_tsina"></a>
+    <a class="jiathis_button_tqq"></a>
+    <a class="jiathis_button_weixin"></a>
+    <a class="jiathis_button_renren"></a>
+    <a href="http://www.jiathis.com/share?uid=1987046" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+    <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript">
+var jiathis_config = {data_track_clickback:'true'};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1987046" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
 
 
 </div>
+
+
+
+</footer>   	       
+	</article>
+	
+	<!-- 多说-->
+
+<section class="comment">
+<div class="ds-thread" data-thread-key="post-my first blog" data-title="my first blog" data-url="http://yoursite.com/child/2015/12/26/my-first-blog/"></div>
+</section>
+<!-- disqus-->
+
+
+</div>  
       <div class="openaside"><a class="navbutton" href="#" title="顯示側邊欄"></a></div>
 
 <div id="asidepart">
@@ -188,7 +240,51 @@ $(document).ready(function(){
 });
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
 
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"dreajaygithubblog"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
 
 
 
@@ -236,5 +332,5 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 
 
   </body>
- </html>
+</html>
 
